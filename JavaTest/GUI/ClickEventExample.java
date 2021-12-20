@@ -5,7 +5,7 @@ import java.awt.event.*;
 public class ClickEventExample extends Frame implements ActionListener {
     TextField tf;
     ClickEventExample(){
-        tf = new TextField();
+        tf = new TextField("Greeting....s");
         tf.setBounds(50, 100, 80, 20);
         Button btn = new Button("click me");
         btn.setBounds(50, 200, 80, 20);
