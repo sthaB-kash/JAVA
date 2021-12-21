@@ -3,7 +3,7 @@ class Thread1 extends Thread {
         try{
              for(int i=1; i<=5; i++) {
                 System.out.println("hello");
-                sleep(1000);
+                // sleep(1000);
             }  
         }catch(Exception e){
             System.out.println(e);
@@ -16,7 +16,7 @@ class Thread2 extends Thread {
         try{
             for(int i=1; i<=5; i++) {
                 System.out.println("hi");
-                sleep(2000);
+                // sleep(2000);
             }
         }catch(Exception e){System.out.println(e);}
     }
@@ -31,9 +31,9 @@ class ThreadDemo {
 
         t1.start();
 
-        // try{
-        //     Thread.sleep(5000);
-        // }catch(Exception e){System.out.println(e);}
+        try{
+            Thread.sleep(5000);
+        }catch(Exception e){System.out.println(e);}
 
         t2.start();
     }
