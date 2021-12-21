@@ -17,7 +17,7 @@ class Q1 extends JFrame{
         JLabel lbl = new JLabel("this is label");
         lbl.setBounds(30, 30, 100, 20);
         add(lbl);
-        setBackground(Color.blue);
+        setBackground(Color.red);
 //        this.setBackground(Color.red);
         setSize(500,500);
         setLayout(null);

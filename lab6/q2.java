@@ -33,6 +33,7 @@ public class q2 extends JFrame implements ActionListener{
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
     }
+    @Override
     public void actionPerformed (ActionEvent e) {
         int a = Integer.parseInt(txt1.getText());
         int b = Integer.parseInt(txt2.getText());
