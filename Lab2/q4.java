@@ -10,7 +10,7 @@ package Lab2;
 
 public class q4 {
     public static void main(String []args) {
-        Info std = new Info();
+        Info_ std = new Info_();
         std.Id(1);
         std.Name("Bikash Shrestha");
         std.Program("Bachelor of Computer Application");
@@ -49,6 +49,9 @@ class Student {
     }
 }
 
-class Info extends Student {
+class Info_ extends Student {
     //empty class only acces the properties and methods of parent (Student)
+    void whyInfo() {
+        System.out.print("to access the getters and setters of Student");
+    }
 }

@@ -8,7 +8,7 @@ public class q3 {
         try{
             System.out.println("this is test of finally ");
             throw new RuntimeException("test");
-        }catch(Exception e){
+        }catch(RuntimeException e){
             System.out.println("Exception caught:::" + e);
         }finally{
             System.out.println("FINALLY BLOCK---> this block always executes");

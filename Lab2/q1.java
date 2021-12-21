@@ -28,8 +28,9 @@ public class q1 {
         System.out.print("=====================================\nUsing for each loops::");
         for(int[] row: p){
             for(int col: row){
-                System.out.println(col);
+                System.out.print(col);
             }
+            System.out.println();
         }
         
     }

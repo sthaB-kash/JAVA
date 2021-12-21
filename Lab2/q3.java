@@ -9,7 +9,7 @@ package Lab2;
 public class q3 {
     public static void main(String [] args){
         Info demo = new Info();
-        demo.sum(5,6);
+        demo.sum(5,67);
         System.out.println(demo.displaySum());
         demo.sum(1,2,3);
         System.out.println(demo.displaySum());
@@ -18,8 +18,11 @@ public class q3 {
 }
 
 class Addition{
-    public int sumVal;
+    int sumVal;
     
+    public int getSum() {
+        return sumVal;
+    }
     public void sum(int a, int b){
         sumVal =  a + b;
     }
@@ -30,6 +33,6 @@ class Addition{
 
 class Info extends Addition {
     public int displaySum(){
-        return sumVal;
+        return getSum();
     }
 }
