@@ -98,7 +98,7 @@ public class q1 extends JFrame implements ActionListener{
             //getPasword return array of characters
             char [] password = pw.getPassword();    
             System.out.println("Password: " + password);
-            System.out.println("C.PW: " + cpw.getPassword());
+            System.out.println("C.PW: " + cpw.getText());
             System.out.println("Country: " + country.getText());
             System.out.println("State: " + state.getText());
             System.out.println("Phone no: " + phone.getText());

@@ -5,6 +5,7 @@ fileOutputStream.
 package lab7;
 
 import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class q4 {
     public static void main(String args[]){    
@@ -15,6 +16,6 @@ public class q4 {
              file.write(b);    
              file.close();    
              System.out.println("success...");    
-            }catch(Exception e){System.out.println(e);}    
+            }catch(IOException e){System.out.println(e);}    
       }    
 }
