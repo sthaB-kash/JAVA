@@ -45,6 +45,7 @@ class JTreeExample {
         f.setSize(200,200);
 
         f.setVisible(true);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         }
 
