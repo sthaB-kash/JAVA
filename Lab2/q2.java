@@ -1,7 +1,4 @@
-/*
- Write a program to add elements such as (“ram”,”hari”,10,20) into a Vector
-and use for each loop to display the values of the Vector.
- */
+
  
 package Lab2;
 

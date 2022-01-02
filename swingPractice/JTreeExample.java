@@ -12,11 +12,8 @@ class JTreeExample {
     JFrame f;
     JTreeExample(){
         f=new JFrame();
-
         DefaultMutableTreeNode college=new DefaultMutableTreeNode("Kantipur City College");
-
         DefaultMutableTreeNode academic =new DefaultMutableTreeNode("Academic");
-
         DefaultMutableTreeNode underGraduate=new DefaultMutableTreeNode("Under Graduate");
         DefaultMutableTreeNode bca=new DefaultMutableTreeNode("BCA");
         DefaultMutableTreeNode bit=new DefaultMutableTreeNode("BIT");
@@ -41,18 +38,13 @@ class JTreeExample {
         JTree jt =new JTree(college);
 
         f.add(jt);
-
         f.setSize(200,200);
-
         f.setVisible(true);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        }
+    }
 
     public static void main(String[] args) {
-
-    new JTreeExample();
-
+        new JTreeExample();
     }
 }
  
