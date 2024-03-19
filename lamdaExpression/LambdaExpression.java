@@ -28,6 +28,7 @@ public class LambdaExpression {
         //print every element of a list
         List<Integer> numbers = List.of(1, 2, 3, 4 ,5 );
         numbers.forEach( num -> System.out.println(num));
+        numbers.forEach(System.out::println); // using method reference
     }
 }
 
